@@ -7,11 +7,13 @@ When using the algorithms or coder settings in this repository in your
 work, please cite the Hooge et al. paper.
 
 This repository also contains the eye-movement data used as stimuli in
-the Hooge et al. paper. These stimuli are a part of the infant
-eye-movement dataset collected by Hessels, R.S., Hooge, I.T.C., &
-Kemner, C. (2016). An in-depth look at saccadic search in infancy.
-Journal of Vision, 16(8), 10. http://doi.org/10.1167/16.8.10. Please
-cite this paper when using these eye-movement data.
+the Hooge et al. paper. When using the infant data files, please cite
+Hessels, R.S., Hooge, I.T.C., & Kemner, C. (2016). An in-depth look at
+saccadic search in infancy. Journal of Vision, 16(8), 10.
+http://doi.org/10.1167/16.8.10. When using the adult data files, please
+cite Hooge, I.T.C., Niehorster, D.C., Nyström, M., Andersson, R. &
+Hessels, R.S. (submitted). Is human classification a gold standard in
+fixation detection?
 
 For more information or questions, e-mail: i.hooge@uu.nl /
 dcnieho@gmail.com. The latest version of this repository is available
