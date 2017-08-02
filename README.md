@@ -1,8 +1,8 @@
 This repository contains the coder settings and event-based agreement
 score algorithms used and developed for the article
 Hooge, I.T.C., Niehorster, D.C., Nyström, M., Andersson, R. & Hessels,
-R.S. (submitted). Is human classification a gold standard in fixation
-detection?
+R.S. (submitted). Is human classification by experienced untrained
+observers a gold standard in fixation detection?
 When using the algorithms or coder settings in this repository in your
 work, please cite the Hooge et al. paper.
 
