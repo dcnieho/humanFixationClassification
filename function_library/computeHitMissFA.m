@@ -30,10 +30,10 @@ nFixRef             = size(ref,1);
 % that it cannot be used again. Count as a hit.
 for f=1:nFixRef
     qRefFix = refVec==f;
-    testFix = quickUnique(testVec(qRefFix));                   % see what is in the other data stream (0: not coded or used already, numbers code samples assigned to unique fixations)
-    testFix = min(testFix(testFix~=0));                        % take first fixation overlapping with refFix
+    testFix = testVec(qRefFix & testVec~=0);                % see what is in the other data stream (0: not coded or used already, numbers code samples assigned to unique fixations)
     
     if ~isempty(testFix)
+        testFix                     = testFix(1);           % take first fixation overlapping with refFix
         % mark as hit, consume involved fixations so they can't
         % be matched again
         hit                         = hit+1;
@@ -45,5 +45,5 @@ end
 % ref is a miss (as it did not also occur in test), and what
 % remains in test is a false alarm (as there is nothing there
 % in reference set).
-miss        = miss       + numel(unique(refVec (refVec >0)));
-falseAlarm  = falseAlarm + numel(unique(testVec(testVec>0)));
+miss        = miss       + numel(quickUnique(refVec (refVec >0)));
+falseAlarm  = falseAlarm + numel(quickUnique(testVec(testVec>0)));

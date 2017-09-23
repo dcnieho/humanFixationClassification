@@ -63,7 +63,7 @@ for c1=1:nsubj
             if isempty(ref) && isempty(test)
                 % nothing to process
                 continue
-            end 
+            end
             
             
             % determine hits, misses and false alarms, add to counts from previous stimuli 
