@@ -46,22 +46,19 @@ for t=1:nstims
         settings{c} = [dat(c).fixstart(qSet) dat(c).fixend(qSet)];
     end
     
-    % per coder, plot settings
-    for c=1:nsubj
-        % plot
-        if ~ishghandle(fhndl)
-            fhndl = figure('Units','normalized','Position',[0 0 1 1]);  % make fullscreen figure
-        else
-            figure(fhndl);
-            clf;
-        end
-        plotDetection(data.time,data.x,data.y,data.v,settings,subjname,c,sprintf('%s: %s',subjname{c},stimnames{t}));
-        set(fhndl,'Visible','on');  % assert visibility to bring window to front again after keypress
-        pause
-        if ~ishghandle(fhndl)
-            qBreak = true;
-            break;
-        end
+    % per stimulus, plot settings
+    if ~ishghandle(fhndl)
+        fhndl = figure('Units','normalized','Position',[0 0 1 1]);  % make fullscreen figure
+    else
+        figure(fhndl);
+        clf;
+    end
+    plotDetection(data.time,data.x,data.y,data.v,settings,subjname,1,stimnames{t});
+    set(fhndl,'Visible','on');  % assert visibility to bring window to front again after keypress
+    pause
+    if ~ishghandle(fhndl)
+        qBreak = true;
+        break;
     end
     
     if qBreak
