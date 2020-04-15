@@ -1,6 +1,16 @@
 clear variables; clear global; clear mex; close all; fclose('all'); clc
 dbstop if error % for debugging: trigger a debug point when an error occurs
 
+% how to use:
+% - run the file, it will show the first stimulus (eye tracking data) along
+%   with the settings of all the coders. The settings of all the coders are
+%   shown in the scarf plot underneath the stimulus data, and the settings
+%   of the highlighted coder are drawn in the stimulus data panels.
+% - navigate to the next trial by pressing any key (e.g. the right arrow
+%   key)
+% - change which coder's settings are shown on top of the stimulus data by
+%   clicking on that coder in the scarf plot
+
 dirs.home = cd;
 cd data;                        dirs.data       = cd;
         cd coderSettings;       dirs.coderSet   = cd;
