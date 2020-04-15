@@ -2,18 +2,18 @@ function plotDetection(time,Xdata,Ydata,Vdata,allSettings,allSubs,pIdx,tit)
 
 ax1 = subplot(4,1,1); hold on
 doPlot(time,Xdata,allSettings{pIdx}(:,1),allSettings{pIdx}(:,2));
-ylabel('X (°)')
+ylabel('X (pix)')
 axis ij
 title(texlabel(tit,'literal'))
 
 ax2 = subplot(4,1,2); hold on
 doPlot(time,Ydata,allSettings{pIdx}(:,1),allSettings{pIdx}(:,2));
-ylabel('Y (°)')
+ylabel('Y (pix)')
 axis ij
 
 ax3 = subplot(4,1,3); hold on
 doPlot(time,Vdata,allSettings{pIdx}(:,1),allSettings{pIdx}(:,2));
-ylabel('Vel (°/s)')
+ylabel('Vel (pix/s)')
 xl = get(ax3,'XLim');
 xlim([0 xl(2)]);
 
