@@ -55,7 +55,7 @@ N.B.: complete details of changes made is available on [github](https://github.c
 
 
 
-### Data disclaimer, limitations and conditions of release
+## Data disclaimer, limitations and conditions of release
 By downloading this data set, you expressly agree to the following conditions of release and acknowledge the following disclaimers issued by the authors:
 
 ### A. Conditions of Release
