@@ -1,6 +1,6 @@
 This repository contains the coder settings and event-based agreement
 score algorithms used and developed for the article Hooge, I.T.C.,
-Niehorster, D.C., Nyström, M., Andersson, R. & Hessels, R.S. (2017). Is
+Niehorster, D.C., Nyström, M., Andersson, R. & Hessels, R.S. (2018). Is
 human classification by experienced untrained observers a gold standard
 in fixation detection?  https://doi.org/10.3758/s13428-017-0955-x
 
@@ -13,7 +13,7 @@ Hessels, R.S., Hooge, I.T.C., & Kemner, C. (2016). An in-depth look at
 saccadic search in infancy. Journal of Vision, 16(8), 10.
 http://doi.org/10.1167/16.8.10. When using the adult data files, please
 cite Hooge, I.T.C., Niehorster, D.C., Nyström, M., Andersson, R. &
-Hessels, R.S. (2017). Is human classification by experienced untrained
+Hessels, R.S. (2018). Is human classification by experienced untrained
 observers a gold standard in fixation detection?
 https://doi.org/10.3758/s13428-017-0955-x
 
@@ -30,7 +30,7 @@ license.
 Contents:
 - To explore the event based F1 and relative timing offset and difference
   scores, run the files F1_example.m and RTO_RTD_example.m, respectively.
-- To reproduce the F1, RTO and RTD scores from Hooge et al. (2017),
+- To reproduce the F1, RTO and RTD scores from Hooge et al. (2018),
   run doF1_RTO_RTD_forAll.m
 - To graphically explore the settings coders made, run
   coderSettingPlotter.m
@@ -51,6 +51,10 @@ N.B.: complete details of changes made is available on [github](https://github.c
 - updated y-axis labels in coderSettingPlotter.m: deg -> pix
 - updated coderSettingPlotter.m to step through data trial by trial instead of per coder per trial
 - updated coderSettingPlotter.m to enable viewing a specific coder's settings by clicking on that coder's settings in the scarfplot
+### Version 1.1.1 - changes from 1.1
+- added "Data disclaimer, limitations and conditions of release"
+### Version 1.1.2 - changes from 1.1.1
+- Corrected citation to paper to print date (2018)
 
 
 
@@ -60,7 +64,7 @@ By downloading this data set, you expressly agree to the following conditions of
 
 ### A. Conditions of Release
 Data are available by permission of the authors. Use of data in publications, either digital or hardcopy, must be cited as follows: 
-Hooge, I.T.C., Niehorster, D.C., Nyström, M., Andersson, R. & Hessels, R.S. (2017). Is human classification by experienced untrained observers a gold standard in fixation detection?  https://doi.org/10.3758/s13428-017-0955-x.
+Hooge, I.T.C., Niehorster, D.C., Nyström, M., Andersson, R. & Hessels, R.S. (2018). Is human classification by experienced untrained observers a gold standard in fixation detection?  https://doi.org/10.3758/s13428-017-0955-x.
 When using the infant data files, cite Hessels, R.S., Hooge, I.T.C., & Kemner, C. (2016). An in-depth look at saccadic search in infancy. Journal of Vision, 16(8), 10. http://doi.org/10.1167/16.8.10.
 When using the adult data files, cite Hooge, I.T.C., Niehorster, D.C., Nyström, M., Andersson, R. & Hessels, R.S. (2017). Is human classification by experienced untrained observers a gold standard in fixation detection? https://doi.org/10.3758/s13428-017-0955-x.
 
