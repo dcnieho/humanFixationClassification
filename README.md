@@ -55,7 +55,8 @@ N.B.: complete details of changes made is available on [github](https://github.c
 - added "Data disclaimer, limitations and conditions of release"
 ### Version 1.1.2 - changes from 1.1.1
 - Corrected citation to paper to print date (2018)
-
+### Version 1.2 - changes from 1.1.3
+- Added corrected figures (see https://link.springer.com/article/10.3758/s13428-021-01537-1) in the folder “corrected figures”
 
 
 
